@@ -1,0 +1,21 @@
+body {
+    background: #261e1c;
+    color: #fafafa;
+}
+
+header {
+    background: blue;
+}
+
+nav {
+    background: green;
+}
+
+footer {
+    background: blueviolet;
+    height: 50px;
+}
+
+.heading {
+color: #a59a8b;
+}
