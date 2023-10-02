@@ -1,21 +1,107 @@
 body {
-    background: #261e1c;
+    background-color: #fafafa;
+    font-family: 'Verdana';
+}
+ul {
+    list-style-type:none;
+    padding-left: 10px;
+    margin-block: 0;
+}
+.list {
+
+    margin: 20px 0;
+    /*  TODO: revizuieste asta   */
+    width: 250px;
+
+}
+
+
+.list-item {
+  font-size: 20px;
+  font-size: 'Verdana';
+  margin-bottom: 10px;
+
+}
+.active{
+  background-color: coral;
+}
+
+.navbar {
+    background-color: #0f4604;;
+    padding: 20px 0;
+}
+.navbar-item {
+    float: right;
+    display: inline;
     color: #fafafa;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 0 20px;
+}
+ a{
+    text-decoration: none;
+    color: unset;
 }
 
-header {
-    background: blue;
+
+.brand {
+    float: left;
+    text-transform: capitalize;
+}
+.brand-firstletter{
+    text-transform: lowercase;
 }
 
-nav {
-    background: green;
+.banner {
+    height: 70vh;
+    background-image: url(img/forest-o8tny79q1njt8ahw.jpg);
+    background-repeat: no-repeat;
+
+    position: relative;
+
 }
 
-footer {
-    background: blueviolet;
-    height: 50px;
+.banner-text{
+    color:#0f4604;
+    text-transform: lowercase;
+    letter-spacing: -1.5px;
+    font-size: 36px;
+
+    position: absolute;
+    top: 45%;
+    right: 20px;
 }
 
-.heading {
-color: #a59a8b;
+.summary {
+    background: #0f4604;
+    color: #fafafa;
+    font-size: 12px;
+    text-align: center;
+    padding: 50px 150px;
+
+}
+.text-center {
+    text-align: center;
+}
+
+.cards-section{
+    padding: 50px;
+}
+
+.card {
+    height: 100px;
+    width:calc(calc(100% - 150px) / 3);
+    background-color: #0f4604;
+    color: #fafafa;
+    display: inline-block;
+    border-radius: 10%;
+    padding: 20px;
+}
+
+.card-body {
+
+}
+
+.card-footer {
+    
 }
