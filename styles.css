@@ -154,44 +154,43 @@ body {
     display: flex;
     justify-content: space-between;
   }
-  
-  .footer-menu {
-    display: flex;
-    justify-content: space-evenly;
-    flex-grow: 2;
-  }
-  
-  .footer-menu-list > * {
-    margin-bottom: 15px;
-  }
-  
-  .footer-menu-list > *:hover {
-    background-color: #fafafa;
-    color: #264245;
-    display: flex;
-    border-radius: 5px;
-  }
-  
-  .footer-menu-link {
-    display: flex;
-    border: 1px solid #fafafa;
-    border-radius: 5px;
-    padding: 5px;
-  }
-  /* End of Footer */
-  
+.footer-menu{
+  display: flex;
+  justify-content: space-evenly;
+  flex-grow: 2;
+}
+
+.footer-menu-list > *{
+margin-bottom: 15px;
+}
+
+.footer-menu-list > *:hover {
+  background-color:  #fafafa;
+  color: #264245;
+  display: flex;
+  border: 1px solid #fafafa;
+border-radius: 5px;
+}
+
+.footer-menu-link {
+  display: flex;
+  border: 1px solid #fafafa;
+border-radius: 5px;
+padding: 5px;
+}
+
   /* Overview */
   .overview-container {
     display: flex;
     gap: 20px;
     padding: 20px;
   }
-  
+
   .image {
     border-radius: 5px;
     box-shadow: 4px 6px 29px -7px #264245;
   }
-  
+
   .overview-text {
     display: flex;
     align-content: center;
@@ -200,26 +199,26 @@ body {
   /* End of Overview */
   
   /* Articles */
-  .article-container {
-    display: flex;
-    padding: 20px;
+.article-container {
+  display: flex;
+  padding: 20px;
+ 
+}
+
+  .arcticle-title {
+display: flex;
+flex-direction: column;
   }
-  
-  .article-title {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  /* .article-title:nth-child(n+1) { */
+  /* .arcticle-title:nth-child(odd){ */
   div.article-container:nth-child(odd) {
     flex-direction: row-reverse;
+ 
   }
-  
+
   .article-heading {
     order: 1;
     text-align: center;
   }
-  
   .article-description {
     display: flex;
     flex-direction: column;
@@ -227,11 +226,12 @@ body {
     padding: 0 50px 0 50px;
   }
   /* End of Articles */
-  
-  /* Media query definition */
+
+  /* Media querry definition */
   @media (min-width: 1025px) {
     main {
       width: 1024px;
       margin: auto;
     }
+
   }
