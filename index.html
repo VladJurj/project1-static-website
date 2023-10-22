@@ -1,53 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Proiect 1 - Home</title>
-    <style>
-      </style>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-</head>
-<body>
-  <nav>
-    <ul class="navbar">
-      <li class="navbar-item brand"><span class="brand-firstletter">E</span>Shop</li>
-      <li class="navbar-item"><a href="about.html">About US</a></li>
-      <li class="navbar-item"><a href="comingsoon.html">Coming Soon</a><li>
-    </ul>
-  </nav>
-    
-  
-  <header>
-    <div class="banner">
-        <h1 class="banner-text">This is header</h1>
+
+    <!-- Link spre fisierul din care primim CSS -->
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <nav>
+      <ul class="navbar">
+        <li class="navbar-item brand">
+          <a href="./index.html">eShop</a>
+        </li>
+        <li class="navbar-item"><a href="./about.html">About Us</a></li>
+        <li class="navbar-item"><a href="./comingsoon.html">Coming Soon</a></li>
+      </ul>
+    </nav>
+
+    <header>
+      <div class="banner">
+        <h1 class="banner-text">This is the header.</h1>
       </div>
     </header>
 
     <main>
-<section>
-  <div class="summary">
-    <h3 class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus nostrum architecto possimus omnis earum porro?</h3>
+      <section>
+        <div>
+          <h2 class="text-center">Read more</h2>
+        </div>
 
-  </div>
-</section>
+      <div class="overview-container">
+          <p class="overview-text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis delectus tempore ut
+            debitis eum cumque quasi harum nostrum nulla architecto, totam, aspernatur earum eaque
+            libero maxime quis. Rem, reiciendis incidunt.
+          </p>
+          <img src="img/forest-o8tny79q1njt8ahw.jpg" width="400" height="auto" class="image" />
+        </div>
+      </section>
 
-<section>
-  <div class="cards-section">
-<div class="card-body"> A</div>
-<div class="card-footer">A</div>
-<div class="card-body">B</div>
-<div class="card-footer">B</div>
-<div class="card-body">C</div>
-<div class="card-footer">B</div>
-  </div>
-</section>
+      <section>
+        <div class="summary-section background-dark">
+          <h3 class="text-center">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Deleniti ut voluptatibus illum
+            alias!
+          </h3>
+        </div>
+      </section>
+
+      <section>
+        <div class="cards-section">
+          <div class="card background-dark">
+            <div class="card-header">This is Card A</div>
+            <div class="card-body">
+              <div class="card-pricing-image"></div>
+              <p>Testing card.</p>
+            </div>
+            <div class="card-footer">A - footer</div>
+          </div>
+          <div class="card background-dark">
+            <div class="card-header">This is Card B</div>
+            <div class="card-body">
+              <div class="card-pricing-image"></div>
+              <p>Testing card.</p>
+            </div>
+            <div class="card-footer">B - footer</div>
+          </div>
+          <div class="card background-dark">
+            <div class="card-header">This is Card C</div>
+            <div class="card-body">
+              <div class="card-pricing-image"></div>
+              <p>Testing card.</p>
+            </div>
+            <div class="card-footer">C - footer</div>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="articles">
+          <div class="article-container">
+            <div class="article-title">
+              <h4 class="article-heading">Articol 1</h4>
+              <img
+                src="img/forest-o8tny79q1njt8ahw.jpg"
+                width="300"
+                height="auto"
+                class="image"
+              />
+            </div>
+            <div class="article-description">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde velit, tenetur
+                repellat magni tempora cupiditate exercitationem consequatur provident ullam, at
+                cumque tempore doloribus voluptas laboriosam nostrum aperiam optio hic asperiores!
+              </p>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde velit, tenetur
+                repellat magni tempora cupiditate exercitationem consequatur provident ullam, at
+                cumque tempore doloribus voluptas laboriosam nostrum aperiam optio hic asperiores!
+              </p>
+            </div>
+          </div>
+
+          <div class="article-container">
+            <div class="article-title">
+              <h4 class="article-heading">Articol 2</h4>
+              <img
+                src="img/forest-o8tny79q1njt8ahw.jpg"
+                width="300"
+                height="auto"
+                class="image"
+              />
+            </div>
+            <div class="article-description">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde velit, tenetur
+                repellat magni tempora cupiditate exercitationem consequatur provident ullam, at
+                cumque tempore doloribus voluptas laboriosam nostrum aperiam optio hic asperiores!
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
 
-
-    <footer>
-        <p>Footer</p>
+    <footer class="footer">
+      <div class="footer-section background-dark">
+        <div class="footer-brand">
+          <p>eShop Companies & Co.</p>
+          <p class="font-smaller">Copyright Guidelines and Resources</p>
+        </div>
+        <div class="footer-menu">
+          <ul class="footer-menu-list">
+            <li><a class="footer-menu-link" href="./index.html">Home</a></li>
+            <li><a class="footer-menu-link" href="./about.html">About Us</a></li>
+            <li><a class="footer-menu-link" href="./comingsoon.html">Coming Soon</a></li>
+          </ul>
+          <ul class="footer-menu-list">
+            <li>External link 1</li>
+            <li>External link 2</li>
+            <li>External link 3</li>
+          </ul>
+          <ul class="footer-menu-list">
+            <li>Placeholder link 1</li>
+            <li>Placeholder link 2</li>
+          </ul>
+        </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
